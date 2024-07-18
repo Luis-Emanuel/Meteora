@@ -21,7 +21,7 @@ export const CarrinhoProvider = ({ children }) => {
         totalTemp: 0,
       }
     );
-  }, [carrinho]);
+  });
 
   useEffect(() => {
     setQuantidade(quantidadeTemp);
@@ -39,4 +39,4 @@ export const CarrinhoProvider = ({ children }) => {
       {children}
     </CarrinhoContext.Provider>
   )
-}
+}  

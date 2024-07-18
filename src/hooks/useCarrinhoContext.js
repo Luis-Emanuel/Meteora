@@ -9,7 +9,7 @@ const addProdutoAction = (novoProduto) => ({
 
 const removeProdutoAction = (produtoId) => ({
   type: REMOVE_PRODUTO,
-  payload: produtoId,
+  payload: produtoId
 });
 
 const updateQuantidadeAction = (produtoId, quantidade) => ({
